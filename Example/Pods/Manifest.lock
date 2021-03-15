@@ -1,0 +1,16 @@
+PODS:
+  - TextFieldEffects (0.1.0)
+
+DEPENDENCIES:
+  - TextFieldEffects (from `../`)
+
+EXTERNAL SOURCES:
+  TextFieldEffects:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TextFieldEffects: 12f7ebe65910701f851efd83392be76b6088914a
+
+PODFILE CHECKSUM: 3886269a33a1c2d9b84ebbb53989278a1b1200eb
+
+COCOAPODS: 1.10.1

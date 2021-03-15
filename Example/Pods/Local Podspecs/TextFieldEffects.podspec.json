@@ -1,0 +1,22 @@
+{
+  "name": "TextFieldEffects",
+  "version": "0.1.0",
+  "summary": "A short description of TextFieldEffects.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Christopher Shireman/TextFieldEffects",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Christopher Shireman": "chris@shireman.net"
+  },
+  "source": {
+    "git": "https://github.com/Christopher Shireman/TextFieldEffects.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TextFieldEffects/Classes/**/*"
+}

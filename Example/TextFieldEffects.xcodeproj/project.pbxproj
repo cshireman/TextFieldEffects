@@ -12,14 +12,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1F144FB63627F40BA5B56640 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1F144FB63627F40BA5B56640 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		46E58B2579E52B39821F73FD /* Pods-TextFieldEffects_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextFieldEffects_Tests.release.xcconfig"; path = "Target Support Files/Pods-TextFieldEffects_Tests/Pods-TextFieldEffects_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4B36270C86469EC08D2A938F /* TextFieldEffects.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TextFieldEffects.podspec; path = ../TextFieldEffects.podspec; sourceTree = "<group>"; };
+		4B36270C86469EC08D2A938F /* TextFieldEffects.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TextFieldEffects.podspec; path = ../TextFieldEffects.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4F2109EF29591E516592362A /* Pods-TextFieldEffects_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextFieldEffects_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TextFieldEffects_Tests/Pods-TextFieldEffects_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* TextFieldEffects_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldEffects_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6931F09885A32680F58C438C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6931F09885A32680F58C438C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C486FDEBB0A5CBF1BCC1B05C /* Pods_TextFieldEffects_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextFieldEffects_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -95,7 +95,6 @@
 				4F2109EF29591E516592362A /* Pods-TextFieldEffects_Tests.debug.xcconfig */,
 				46E58B2579E52B39821F73FD /* Pods-TextFieldEffects_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
