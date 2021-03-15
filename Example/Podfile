@@ -1,0 +1,6 @@
+use_frameworks!
+target 'TextFieldEffects_Tests' do
+  pod 'TextFieldEffects', :path => '../'
+  
+  
+end
